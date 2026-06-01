@@ -1,11 +1,11 @@
 import React from 'react'
-import Group from '../assets/group.png'
+import Logo from '../assets/logo.svg'
 import Button from './Button'
 
 const Navbar = () => {
   return (
     <nav className='nav'>
-    <img src={Group} alt='logo'/>
+    <img src={Logo} alt='logo'/>
       <Button />
     </nav>
   )
