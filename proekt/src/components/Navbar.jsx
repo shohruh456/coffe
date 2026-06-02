@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className='nav'>
     <img src={Logo} alt='logo'/>
-      <Button />
+      <Button text='Launch App' />
     </nav>
   )
 }

@@ -1,9 +1,7 @@
 import React from 'react'
 
-const Button = () => {
-  return (
-    <button className='btn'>Launch App</button>
-  )
+function Button({ text }) {
+  return <button className='btn'>{text}</button>;
 }
 
-export default Button
+export default Button;
